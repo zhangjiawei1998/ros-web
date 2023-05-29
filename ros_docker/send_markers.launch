@@ -1,0 +1,6 @@
+<launch>
+    <node name="zjw_using_markers" pkg="using_markers" type="basic_shapes" output="screen">
+    </node>
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    </include>
+</launch>
